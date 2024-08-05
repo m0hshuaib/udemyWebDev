@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+h1, h2 { /* Group Selection */
+    color: purple;
+}
+
+div > p { /* Parent element > Child element selection */
+    color: firebrick;
+}
+/* OR */
+.box > p { /* Parent element > Child element selection */
+    color: firebrick;
+}
+
+.box li { /* Ancestor Descendant Selection */
+    color: blue;
+}
+
+li.done { /* Selection Chaining. Selects elements where all the selectors in the chain apply. Always start the chain with the element selector. */
+    color: seagreen;
+}
+
+ul p.done { /* We can combine combined selctors to get even more specific!. */
+    font-size: 0.5rem;
+}
