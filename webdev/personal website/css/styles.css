@@ -1,0 +1,116 @@
+#hero, #projects {
+    border: 10px dashed #e9e6e6 ;
+}
+
+#hero img {
+    height: 540px;
+}
+
+/*
+    #hero h1 {
+    font-size: 74px;
+*/
+
+#hero h1 {
+    font-size: 4rem;
+    font-family: inter, sans;
+    color: #715f5f;
+    display: inline-block;
+}
+
+#hero span {
+    color: black;
+}
+
+#hero-flex {
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+#about, #contact {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#about h2, #projects h2, #contact h2{
+    font-size: 3rem;
+    font-family: inter, sans;
+    color: #201a1a;
+    text-align: center;
+    margin: 0px;
+    padding: 25px 0px 0px 0px;
+}
+
+.text {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #423d3d;
+    padding:  7px 25px;
+    background-color: #e9e6e6;
+    border-radius: 25px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#about #resume-btn, #projects .resume-btn {
+    background-color: rgb(102, 96, 96);
+    color: rgb(243, 239, 239);
+    font-weight: bold;
+    font-family: sans-serif;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#about #resume-btn:hover, #projects .resume-btn:hover {
+    background-color: rgb(58, 56, 56);
+  
+}
+
+.project-container {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 5px 5px 10px 5px;
+    background-color: #e9e6e6;
+    border-radius: 10px;
+
+    
+}
+
+.title {
+    font-weight: 900;
+}
+
+.project-container .body-p > p{
+    padding: 0px 20px;
+}
+
+.project-container img {
+    width: auto;
+    height: 200px;
+}
+
+#footer {
+    background-color: #423d3d;
+    padding: 25px;
+    color: #e9e6e6;
+    border: 10px dashed;
+    margin: 1px;
+    text-align: center;
+}
+
